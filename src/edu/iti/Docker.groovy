@@ -1,6 +1,6 @@
 package edu.iti
 
-def build(imageName, buildNumber) {
+def buildD(imageName, buildNumber) {
     echo "Building Docker image: ${imageName}:${buildNumber}"
     sh "docker build -t ${imageName}:${buildNumber} ."
 }

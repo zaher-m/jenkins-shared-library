@@ -1,6 +1,6 @@
 package edu.iti
 
-def build() {
+def buildM() {
     echo "Running Maven Build..."
     sh "/usr/bin/mvn clean install"
 }
